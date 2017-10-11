@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/cuenta', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('cuenta', {  });
 });
 router.get('/CalculadoraSencilla',function(req,res,next){
   res.render('Calculadora',{});
